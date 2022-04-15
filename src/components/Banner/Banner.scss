@@ -1,0 +1,70 @@
+.Banner {
+  overflow: hidden;
+  background-color: #f1d9f0;
+  background-image: url(../../images/japan-min.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 74rem 35rem;
+  border-radius: 15px 15px 0px 0px;
+  display: block;
+  height: 35rem;
+  margin-right: 30px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.banner-p {
+  font-size: 7.5rem;
+  position: absolute;
+  top: 43%;
+  left: 10%;
+  font-family: 'Permanent Marker', cursive;
+}
+
+@media screen and (min-width: 320px) {
+  .banner-p {
+    font-size: 5.4rem;
+    top: 36%;
+    left: 10%;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  .banner-p {
+    font-size: 6rem;
+    top: 42%;
+    left: 13%;
+  }
+}
+
+@media screen and (min-width: 425px) {
+  .banner-p {
+    font-size: 6rem;
+    top: 43%;
+    left: 17%;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .banner-p {
+    font-size: 8.9rem;
+    top: 23%;
+    left: 10%;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .banner-p {
+    font-size: 10rem;
+    top: 43%;
+    left: 10%;
+  }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1500px) {
+  .banner-p {
+    font-size: 12rem;
+    top: 30%;
+    left: 13%;
+  }
+}
