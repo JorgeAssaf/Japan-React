@@ -26,3 +26,15 @@ section {
     width: 90%;
   }
 }
+
+@media screen and (min-width: 1000px) {
+  .App {
+    zoom: 1.298;
+  }
+}
+
+@media screen and (min-width: 2000px) {
+  .App {
+    zoom: 1.998;
+  }
+}

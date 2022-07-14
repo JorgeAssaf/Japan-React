@@ -11,6 +11,7 @@ function Navbar() {
         <Link className='link' to="/clima">Clima</Link>
         <Link className='link' to="/gobierno">Gobierno</Link>
         <Link className='link' to="/quehacer">¿Que hacer?</Link>
+
       </nav>
     </header>
   )
